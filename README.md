@@ -122,9 +122,11 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- CONTACT -->
 ## Challenges
 
-I had to trim a few features from the application due to the short timeframe I had to make this. I ran into significant difficulty implementing the authentication and CRUD operations with Firebase. I have not worked with it in over a couple of years, and there have been significant changes to the syntax with limited helpful examples online. 
+I had to trim a few features from the application because of schedule constraints. I ran into significant difficulty implementing the authentication and CRUD operations with Firebase. I have not worked with it in over a couple of years, and there have been significant changes to the syntax with limited helpful examples online. 
 
-I also had several issues creating my build files with NPM. I am not very familiar with Vite as a build tool. I was unable to host on Vercel and Netlify, and eventually had to host on Firebase.  
+I also had several issues creating my build files. I was unable to host on Vercel and Netlify, and eventually had to host on Firebase.  
+
+Challenges aside, I did not use any pre-built UI elements or template code to make this. Everything was from scratch, and I'm incredibly proud of how it looks. I'm also very glad I was able to get it deployed in time! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
