@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Card Crafter</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left-div"></div>
+      <div class="right-div">
+        <div class="container">
+          <h1>Welcome to <strong class="gradient">Card Crafter!</strong></h1>
+
+          <span class="title">SIGN IN</span>
+          <form autocomplete="off" class="form-group" id="signin-form">
+            <div class="spacer-sm"></div>
+            <label for="email" class="label">E-mail Address</label><br />
+            <input type="email" class="form-control wider" id="email" /><br />
+            <div class="spacer-sm"></div>
+            <label for="password" class="label">Password</label><br />
+            <input
+              type="password"
+              class="form-control wider"
+              id="password"
+              required
+            />
+            <div class="spacer-md"></div>
+            <button type="submit" class="btn">
+              Login
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-arrow-narrow-right"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 12l14 0" />
+                <path d="M15 16l4 -4" />
+                <path d="M15 8l4 4" />
+              </svg>
+            </button>
+          </form>
+          <div class="spacer-md"></div>
+          <div class="spacer-sm"></div>
+          <div class="centered">
+            Need to register for an account?
+            <a href="register.html">Sign up here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="snowflake-container">
+      <img src="../assets/gold-snowflake.png" class="gold-snowflake" />
+    </div>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"
+      type="module"
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"
+      type="module"
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"
+      type="module"
+    ></script>
+    <script src="/scripts/login.js" type="module"></script>
+  </body>
+</html>

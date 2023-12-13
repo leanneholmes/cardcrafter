@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Card Crafter - My Cards</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="centered"><h1>My Cards</h1></div>
+      <span class="title">SAVED CARDS</span><br />
+      <div class="spacer-md"></div>
+      <div id="cards-go-here"></div>
+      <div class="spacer-md"></div>
+      <div class="spacer-md"></div>
+      <a href="/home.html"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-arrow-left"
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M5 12l14 0" />
+          <path d="M5 12l6 6" />
+          <path d="M5 12l6 -6" />
+        </svg>
+        Back to Home</a
+      >
+    </div>
+    <div class="auth-container">
+      <div class="user-info">Signed in as <span id="greeting-span"></span></div>
+      <div class="bullet">•</div>
+      <div>
+        <button id="logout" class="btn-logout">Logout</button>
+      </div>
+    </div>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"
+      type="module"
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"
+      type="module"
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"
+      type="module"
+    ></script>
+    <script src="/scripts/home.js" type="module"></script>
+    <script src="/scripts/cards.js" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </body>
+</html>

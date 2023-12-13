@@ -1,0 +1,20 @@
+.main-container {
+  padding-left: 3%;
+}
+
+.input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+input[type="radio"]:checked + label > img {
+  border: 1px solid #fff;
+  box-shadow: 0 0 3px 3px #519bd1;
+}
+
+input[type="radio"] + label > img {
+  padding: 3px;
+  margin-right: 5px;
+  border: 1px solid lightgrey;
+  transition: 500ms all;
+}
