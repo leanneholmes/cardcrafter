@@ -64,7 +64,6 @@ function getCards() {
       const querySnapshot = await getDocs(q);
       querySnapshot.forEach((doc) => {
         // doc.data() is never undefined for query doc snapshots
-        console.log(doc.id, " => ", doc.data());
         var id = doc.id;
         if (doc.data().template == "golden") {
           $("#cards-go-here").append(`<div class="card-container">

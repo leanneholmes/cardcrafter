@@ -37,18 +37,26 @@ const db = getFirestore(app); //add this to read and write
 // Initialize Firebase Authentication and get a reference to the service
 const auth = getAuth(app);
 
-const greetingSpan = document.getElementById("greeting-span");
+const nameSpan = document.getElementById("name-span");
 
-document.getElementById("logout").addEventListener("click", logout);
-
-function logout() {
-  signOut(auth)
-    .then(() => {
-      // Sign-out successful.
-      window.location.assign("index.html");
-    })
-    .catch((error) => {
-      // An error happened.
-      console.log(error);
-    });
+async function sayHello() {
+  onAuthStateChanged(auth, async (user) => {
+    if (user) {
+      const uid = user.uid;
+      const email = user.email;
+      const usersRef = collection(db, "users");
+      const q = query(usersRef);
+      const querySnapshot = await getDocs(q);
+      querySnapshot.forEach((doc) => {
+        if (doc.data().uid == uid) {
+          nameSpan.textContent = doc.data().name;
+        } else {
+          console.log();
+        }
+      });
+    } else {
+      console.log("Error retrieving user credentials");
+    }
+  });
 }
+sayHello();
