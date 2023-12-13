@@ -5,6 +5,8 @@
 <div align="center">
   <h2 align="center">Card Crafter</h2>
 
+  <img src="https://cdn-icons-png.flaticon.com/512/614/614127.png" alt="Present" width="20" height="20" />
+
   <p align="center">
     A festive e-card generator built with JavaScript and Firebase! 
     <br />
@@ -34,7 +36,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#usage">Roadmap</a></li>
     <li><a href="#usage">Challenges</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -82,7 +83,7 @@ These instructions are for running the project locally.
 
 ### Prerequisites
 
-You'll need to have the latest LTS version of Node installed. 
+You'll need to have Node 20.0 or later installed on your machine. 
 
 ### Installation
 
@@ -92,17 +93,6 @@ You'll need to have the latest LTS version of Node installed.
 3. Start the development build with <b>npm run dev</b>. Navigate to the localhost link displayed in the terminal.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
@@ -122,11 +112,11 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- CONTACT -->
 ## Challenges
 
-I had to trim a few features from the application because of schedule constraints. I ran into significant difficulty implementing the authentication and CRUD operations with Firebase. I have not worked with it in over a couple of years, and there have been significant changes to the syntax with limited helpful examples online. 
+I had to trim a few features from the application because of schedule constraints. I ran into many problems implementing the authentication and CRUD operations with Firebase. I have not worked with it in over a couple of years, and there have been significant changes to the syntax with limited examples online. 
 
-I also had several issues creating my build files. I was unable to host on Vercel and Netlify, and eventually had to host on Firebase.  
+I also had several issues creating my build files. I was unable to host on Vercel and Netlify, and eventually had to host on Firebase.
 
-Challenges aside, I did not use any pre-built UI elements or template code to make this. Everything was from scratch, and I'm incredibly proud of how it looks. I'm also very glad I was able to get it deployed in time! 
+Challenges aside, I did not use any pre-built UI elements or template code to make this. Everything was written from scratch, and I'm incredibly proud of how it looks. I'm also very glad I was able to get it deployed in time! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
