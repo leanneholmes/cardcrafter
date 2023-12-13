@@ -12,7 +12,7 @@
       <img src="https://cdn-icons-png.flaticon.com/512/614/614127.png" alt="Present" width="25" height="25" />
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Watch Demo</a>
+    <a href="https://youtu.be/-td-eXo-6Sg">Watch Demo</a>
     ·
     <a href="https://cardcrafter-d6673.web.app">Hosted Link</a>
   </p>
@@ -127,7 +127,7 @@ Challenges aside, I did not use any pre-built UI elements or template code to ma
 
 Leanne Holmes - lvholmes@ualberta.ca
 
-Project Demonstration: [https://www.youtube.com](https://www.youtube.com)
+Project Demonstration: [https://youtu.be/-td-eXo-6Sg](https://youtu.be/-td-eXo-6Sg)
 
 Hosted Link: [https://cardcrafter-d6673.web.app](https://cardcrafter-d6673.web.app)
 
