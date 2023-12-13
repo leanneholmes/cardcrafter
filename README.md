@@ -106,6 +106,7 @@ You'll need to have Node 20.0 or later installed on your machine.
     - [ ] Updating previously made cards
 - [x] Styling of all HTML Pages
     - [ ] Animations on e-cards
+    - [ ] Music player on e-cards
 - [x] Host project with Firebase
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
