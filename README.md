@@ -4,8 +4,9 @@
 <br />
 <div align="center">
   <a href="https://cardcrafter-d6673.web.app">
-    <img src="https://i.ibb.co/18Nj1yB/thumbnail.jpg" alt="Preview">
+    <img src="https://i.ibb.co/S6nx7Fb/logo.jpg" alt="Logo">
   </a>
+
 
   <h3 align="center">Card Crafter</h3>
 
@@ -16,7 +17,7 @@
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">Watch Demo</a>
     ·
-    <a href="[https://github.com/othneildrew/Best-README-Template/issues](https://cardcrafter-d6673.web.app)">Hosted Link</a>
+    <a href="https://cardcrafter-d6673.web.app">Hosted Link</a>
   </p>
 </div>
 
@@ -51,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://cardcrafter-d6673.web.app) <img src="https://i.ibb.co/18Nj1yB/thumbnail.jpg" alt="Preview">
+[![Product Name Screen Shot][product-screenshot]](https://cardcrafter-d6673.web.app) <img src="https://i.ibb.co/18Nj1yB/thumbnail.jpg" alt="Preview"> <img src="https://i.ibb.co/dGnXmC7/thumbnail-3.jpg" alt="Preview">
 
 This is a web application developed for the <b>Codedex Holiday Hackathon '23!</b> 
 Here's why:
