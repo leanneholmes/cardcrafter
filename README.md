@@ -16,8 +16,7 @@
     ·
     <a href="https://cardcrafter-d6673.web.app">Hosted Link</a> 
      · 
-    
-    <a href="https://www.codedex.io/community/monthly-challenge/submission/bONlraRWkymyE50hhPT4">Codedex Submission</a>
+    <a href="https://www.codedex.io/community/monthly-challenge/submission/bONlraRWkymyE50hhPT4">Codedex Submission</a> 
   </p>
 </div>
 
