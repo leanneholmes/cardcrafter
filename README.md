@@ -118,7 +118,7 @@ I had to trim a few features from the application because of schedule constraint
 
 I also had several issues creating my build files. I was unable to host on Vercel and Netlify, and eventually had to host on Firebase.
 
-Challenges aside, I did not use any pre-built UI elements or template code to make this. Everything was written from scratch, and I'm incredibly proud of how it looks. I'm also very glad I was able to get it deployed in time! 
+Challenges aside, I did not use any pre-built UI elements or template code to make this. Everything was written from scratch, and I'm incredibly pleased with how it turned out. I'm also very glad I was able to get it deployed in time! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
