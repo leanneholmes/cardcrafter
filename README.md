@@ -3,12 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://cardcrafter-d6673.web.app">
-    <img src="https://i.ibb.co/S6nx7Fb/logo.jpg" alt="Logo">
-  </a>
-
-
-  <h3 align="center">Card Crafter</h3>
+  <h2 align="center">Card Crafter</h2>
 
   <p align="center">
     A festive e-card generator built with JavaScript and Firebase! 
