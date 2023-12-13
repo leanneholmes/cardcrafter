@@ -8,8 +8,6 @@
   <p align="center">
     A festive e-card generator built with JavaScript and Firebase! 
     <br />
-    <br />
-    <br />
     <a href="https://github.com/othneildrew/Best-README-Template">Watch Demo</a>
     ·
     <a href="https://cardcrafter-d6673.web.app">Hosted Link</a>
@@ -49,15 +47,15 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://cardcrafter-d6673.web.app) <img src="https://i.ibb.co/18Nj1yB/thumbnail.jpg" alt="Preview"> <img src="https://i.ibb.co/dGnXmC7/thumbnail-3.jpg" alt="Preview">
 
-This is a web application developed for the <b>Codedex Holiday Hackathon '23!</b> 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+This is a web application developed for the <b>Codedex Holiday Hackathon '23!</b> The chosen track was the theme "In the Holiday Spirit".
+Main app features:
+* Authentication with Google Firebase
+* Personalized greeting message
+* Data persistence with Firestore. Create, read, and delete documents
+* Create an e-card from 3 preset templates
+* Makes a unique URL for every card so users can easily share them with family and friends
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+I wanted to make something with a bright and cheerful interface to get people excited for the holiday season. The concept for this app allowed a lot of creativity for both the frontend UI as well as the ecard design. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,16 +63,11 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* HTML/CSS
+* JavaScript
+* JQuery
+* Vite
+* Firebase
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,34 +76,18 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+These instructions are for running the project locally. 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You'll need to the latest LTS version of Node installed. 
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Clone the repo
+2. Install NPM packages with <b>npm install</b>
+3. Start the development build with <b>npm run dev</b>. Navigate to the localhost link displayed in the terminal.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
