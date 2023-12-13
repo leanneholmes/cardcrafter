@@ -5,10 +5,11 @@
 <div align="center">
   <h2 align="center">Card Crafter</h2>
 
-  <img src="https://cdn-icons-png.flaticon.com/512/614/614127.png" alt="Present" width="20" height="20" />
+
 
   <p align="center">
     A festive e-card generator built with JavaScript and Firebase! 
+      <img src="https://cdn-icons-png.flaticon.com/512/614/614127.png" alt="Present" width="20" height="20" />
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">Watch Demo</a>
