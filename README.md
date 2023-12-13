@@ -8,7 +8,7 @@
 
 
   <p align="center">
-    A festive e-card generator built with JavaScript and Firebase! <br />
+    A festive e-card generator built with JavaScript and Firebase! <br /><br />
       <img src="https://cdn-icons-png.flaticon.com/512/614/614127.png" alt="Present" width="25" height="25" />
     <br />
     <br />
