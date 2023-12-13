@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://cardcrafter-d6673.web.app">
-    <img src="(https://i.ibb.co/18Nj1yB/thumbnail.jpg" alt="Preview">
+    <img src="https://i.ibb.co/18Nj1yB/thumbnail.jpg" alt="Preview">
   </a>
 
   <h3 align="center">Card Crafter</h3>
