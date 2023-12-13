@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Card Crafter - Homepage</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="centered"><h1>Card Crafter</h1></div>
+      <span class="title">ABOUT</span><br />
+      <div class="spacer-sm"></div>
+      Welcome, <span id="name-span" class="strong"></span>! Card Crafter is an
+      app where you can create festive e-cards and easily share them with your
+      family and friends. Cards are saved to your user profile so you can come
+      back and access them at anytime.
+
+      <p></p>
+      This is a project developed for the
+      <strong>Codedex Holiday Hackathon '23</strong>
+      <img src="../assets/snowflake-icon.png" class="icon" />
+
+      <div class="spacer-md"></div>
+      <div class="spacer-md"></div>
+      <div class="spacer-sm"></div>
+      <div class="centered">
+        <a href="/create.html"
+          ><button id="create" class="btn">Create a Card</button></a
+        >
+        <a href="/cards.html"
+          ><button id="cards" class="btn-green">View My Cards</button></a
+        >
+        <div class="spacer-md"></div>
+        <div class="spacer-sm"></div>
+        <a href="/view.html?id=KMH1fFnZeyqjXFPaNlM4">View a sample card</a>
+      </div>
+    </div>
+    <div class="auth-container">
+      <div class="user-info">Signed in as <span id="greeting-span"></span></div>
+      <div class="bullet">•</div>
+      <div>
+        <button id="logout" class="btn-logout">Logout</button>
+      </div>
+    </div>
+    <script src="/scripts/home.js" type="module"></script>
+    <script src="/scripts/welcome.js" type="module"></script>
+  </body>
+</html>
