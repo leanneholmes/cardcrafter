@@ -138,7 +138,7 @@ Hosted Link: [https://cardcrafter-d6673.web.app](https://cardcrafter-d6673.web.a
 ## Acknowledgments
 
 * [Tabler Icons](https://tabler.io/icons)
-* [iStockPhoto](https://istockphoto.co/)
+* [iStockPhoto](https://www.istockphoto.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
