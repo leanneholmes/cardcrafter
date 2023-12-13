@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://cardcrafter-d6673.web.app)
+[![Product Name Screen Shot][product-screenshot]](https://cardcrafter-d6673.web.app) <img src="https://i.ibb.co/18Nj1yB/thumbnail.jpg" alt="Preview">
 
 This is a web application developed for the <b>Codedex Holiday Hackathon '23!</b> 
 Here's why:
