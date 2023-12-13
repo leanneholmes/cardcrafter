@@ -49,7 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://cardcrafter-d6673.web.app) <img src="https://i.ibb.co/18Nj1yB/thumbnail.jpg" alt="Preview"> <img src="https://i.ibb.co/dGnXmC7/thumbnail-3.jpg" alt="Preview">
+[![Product Name Screen Shot][product-screenshot]](https://cardcrafter-d6673.web.app) <img src="https://i.ibb.co/18Nj1yB/thumbnail.jpg" alt="Preview"> <img src="https://i.ibb.co/Fz3Twpj/thumbnail-3.jpg" alt="Preview">
 
 This is a web application developed in less than 24 hours for the <b>Codedex Holiday Hackathon '23!</b> The chosen track was "In the Holiday Spirit".
 Main app features include:
