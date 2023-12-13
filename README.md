@@ -114,7 +114,7 @@ You'll need to have Node 20.0 or later installed on your machine.
 <!-- CONTACT -->
 ## Challenges
 
-I had to trim a few features from the application because of schedule constraints. I ran into many problems implementing the authentication and CRUD operations with Firebase. I have not worked with it in over a couple of years, and there have been significant changes to the syntax with limited examples online. 
+I had to trim a few features from the application because of schedule constraints. I ran into many problems implementing the authentication and CRUD operations with Firebase. It was tough to find examples online as much of it was written with outdated syntax. 
 
 I also had several issues creating my build files. I was unable to host on Vercel and Netlify, and eventually had to host on Firebase.
 
